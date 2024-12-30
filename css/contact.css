@@ -1,0 +1,21 @@
+#contact-link{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 100px;
+}
+
+#contact-link a{
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px 0px;
+    background-color: #697484c1;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 25px rgba(77, 76, 76, 0.466);
+    text-align: center;
+}
+
+#contact-link span{
+    text-align: center;
+}
