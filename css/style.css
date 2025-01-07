@@ -1,17 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #414040;
 }
 
 main {
+    max-width: 700px;
+    margin: 0 auto;
     padding: 15px;
+}
+
+#header {
+  /* background-color: #414040; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(190, 190, 190, 0.5)), url(/images/oaks_02.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header_image {
     position: relative;
-    max-width: 100%;
+    max-width: 700px;
     margin: 0 auto;
 }
   
@@ -32,7 +41,7 @@ img {
 }
 
 .overlay-text-visible {
-  font-size: 28vw;
+  font-size: clamp(70px, 28vw, 200px);
   transform: translate(-50%, -50%);
   animation: slideFadeIn 2s forwards;
   animation-delay: 0.2s;
