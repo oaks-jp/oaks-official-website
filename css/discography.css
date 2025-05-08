@@ -28,6 +28,11 @@
     margin: 10px;
 }
 
+.jacket{
+    margin: 15px auto;
+    width: 95%;
+}
+
 .set-list {
     display: flex;
     justify-content: space-between;
