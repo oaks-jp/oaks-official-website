@@ -19,6 +19,10 @@ const menuList = [
         text: 'CONTACT',
         link: '/theme/contact.html'
     },
+    {
+        text: 'LINK',
+        link: '/theme/link.html'
+    }
 ];
 
 const menulistContainer = document.getElementById('menulist');
@@ -84,7 +88,7 @@ const musicData = [
     {
         src: '/images/sns/amazonmusic.png',
         alt: 'amazonmusic',
-        link: 'https://music.amazon.co.jp/artists/B0DR8J2X5T/oaks?marketplaceId=A1VC38T7YXB528&musicTerritory=JP&ref=dm_sh_LqAxdhG5zjCYfcuqvtc3J5Kmc'
+        link: 'https://music.amazon.co.jp/artists/B0DR8J2X5T/oaks'
     },
     {
         src: '/images/sns/music.png',
